@@ -15,7 +15,7 @@ A storage for storing links and questions for storing
     - Tags: Dynamic Programming,
 
 ### 2025-03-01
-1.[Missing Number](https://leetcode.com/problems/missing-number/)
+1. [Missing Number](https://leetcode.com/problems/missing-number/)
     - Source: Leetcode
     - Level: Easy
     - Tags: Array, Hashmap, Math
