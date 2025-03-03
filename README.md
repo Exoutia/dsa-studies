@@ -25,3 +25,25 @@ A storage for storing links and questions for storing
     - Level: Medium
     - Tags: Heap, Binary Search
 
+### 2025-03-02
+1. [Minimum depth of binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+    - Source: Leetcode
+    - Level: Easy
+    - Tags: DFS, BFS
+
+2. [Course Schedule](https://leetcode.com/problems/course-schedule/) 
+    - Source: Leetcode
+    - Level: Medium
+    - Tags: BFS, DFS, Graph, Topological Sort
+
+### 2025-03-03
+1. [Find all numbers disappeared in an matrix](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+    - Source: Leetcode
+    - Level: Easy
+    - Tags: Array
+
+2. [Counting bits](https://leetcode.com/problems/counting-bits/) 
+    - Source: Leetcode
+    - Level: Easy
+    - Tags: Dynamic Programming, Bit Manipulation, String
+
