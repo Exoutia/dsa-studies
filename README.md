@@ -9,7 +9,7 @@ A storage for storing links and questions for storing
     - Level: Easy
     - Tags: Array, Hashmap
 
-2. [Target Sum](https://leetcode.com/problems/contains-duplicate)
+2. [Target Sum](https://leetcode.com/problems/target-sum/)
     - Source: Leetcode
     - Level: Medium
     - Tags: Dynamic Programming,
