@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DSA Studies</title>
+    <title>DSA Studies | Daily</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -72,43 +72,57 @@
     <main class="container">
       <h1>Daily Problems</h1>
 
-      <div class="card-grid">
-        <div class="card">
-          <div class="card-image">
-            <span>1</span>
-          </div>
-          <div class="card-content">
-            <h2 class="card-title">Longest Sbustring without Repeating Characters</h2>
-            <div class="level">
-              <span class="level-medium">Medium</span>
-            </div>
-            <ul class="tags">
-              <li class="tag">Sliding Window</li>
-              <li class="tag">Hashmap</li>
-            </ul>
-            <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" class="card-button">Leetcode</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-image">
-            <span>2</span>
-          </div>
-          <div class="card-content">
-            <h2 class="card-title">Longest Repeating Character Replacement</h2>
-            <div class="level">
-              <span class="level-medium">Medium</span>
-            </div>
-            <ul class="tags">
-              <li class="tag">Sliding Window</li>
-              <li class="tag">Hashmap</li>
-            </ul>
-            <a href="https://leetcode.com/problems/longest-repeating-character-replacement/" class="card-button">Leetcode</a>
-          </div>
-        </div>
-      </div>
+      <div class="card-grid"></div>
     </main>
     <!--<footer>Copyright &copy; 2025 Exoutia. All Rights Reserved.</footer>-->
+    <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+        const cardGrid = document.querySelector(".card-grid");
+
+        try {
+          // Fetch the JSON data
+          const response = await fetch("./questions.json");
+          const data = await response.json();
+
+          // find the lates date
+          const latestDate = data.questions.reduce((max, question) => {
+            return new Date(question.date) > new Date(max)
+              ? question.date
+              : max;
+          }, data.questions[0].date);
+
+          // filter only questions with the latest date
+          const latestQuestions = data.questions.filter(
+            (q) => q.date == latestDate,
+          );
+
+          // Render the questions dynamically
+          cardGrid.innerHTML = latestQuestions
+            .map((question, index) => {
+              return `
+        <div class="card">
+          <div class="card-image">
+            <span>${index + 1}</span>
+          </div>
+          <div class="card-content">
+            <h2 class="card-title">${question.title}</h2>
+            <div class="level">
+              <span class="level-${question.level.toLowerCase()}">${question.level}</span>
+            </div>
+            <ul class="tags">
+              ${question.tags.map((tag) => `<li class="tag">${tag}</li>`).join("")}
+            </ul>
+            <a href="${question.url}" class="card-button">Leetcode</a>
+          </div>
+        </div>
+      `;
+            })
+            .join("");
+        } catch (error) {
+          console.error("Error loading JSON data:", error);
+        }
+      });
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,118 @@
+{
+  "title": "DSA Studies",
+  "description": "A storage for storing links and questions.",
+  "questions": [
+    {
+      "title": "Contains Duplicate",
+      "url": "https://leetcode.com/problems/contains-duplicate/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Array", "Hashmap"],
+      "date": "2025-02-28"
+    },
+    {
+      "title": "Target Sum",
+      "url": "https://leetcode.com/problems/target-sum/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-02-28"
+    },
+    {
+      "title": "Missing Number",
+      "url": "https://leetcode.com/problems/missing-number/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Array", "Hashmap", "Math"],
+      "date": "2025-03-01"
+    },
+    {
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Heap", "Binary Search"],
+      "date": "2025-03-01"
+    },
+    {
+      "title": "Minimum Depth of Binary Tree",
+      "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["DFS", "BFS"],
+      "date": "2025-03-02"
+    },
+    {
+      "title": "Course Schedule",
+      "url": "https://leetcode.com/problems/course-schedule/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["BFS", "DFS", "Graph", "Topological Sort"],
+      "date": "2025-03-02"
+    },
+    {
+      "title": "Find All Numbers Disappeared in an Array",
+      "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Array"],
+      "date": "2025-03-03"
+    },
+    {
+      "title": "Counting Bits",
+      "url": "https://leetcode.com/problems/counting-bits/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Dynamic Programming", "Bit Manipulation", "String"],
+      "date": "2025-03-03"
+    },
+    {
+      "title": "Single Number",
+      "url": "https://leetcode.com/problems/single-number/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Array", "Bit Manipulation"],
+      "date": "2025-03-04"
+    },
+    {
+      "title": "House Robber",
+      "url": "https://leetcode.com/problems/house-robber/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Math", "Dynamic Programming"],
+      "date": "2025-03-04"
+    },
+    {
+      "title": "Climbing Stairs",
+      "url": "https://leetcode.com/problems/climbing-stairs/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Dynamic Programming", "Recursion"],
+      "date": "2025-03-05"
+    },
+    {
+      "title": "Product of Array Except Self",
+      "url": "https://leetcode.com/problems/product-of-array-except-self/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Array", "Math"],
+      "date": "2025-03-05"
+    },
+    {
+      "title": "Longest Substring Without Repeating Characters",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Sliding Window", "Hashmap"],
+      "date": "2025-03-06"
+    },
+    {
+      "title": "Longest Repeating Character Replacement",
+      "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Sliding Window", "Hashmap"],
+      "date": "2025-03-06"
+    }
+  ]
+}
