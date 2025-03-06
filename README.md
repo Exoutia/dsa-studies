@@ -66,3 +66,13 @@ A storage for storing links and questions for storing
     - Source: Leetcode
     - Level: Medium
     - Tags: Array, Math
+
+### 2025-03-06
+1. [Longest Sbustring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+    - Source: Leetcode
+    - Level: Medium
+    - Tags: Sliding Window, Hashmap
+2. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+    - Source: Leetcode
+    - Level: Medium
+    - Tags: Sliding Window, Hashmap
