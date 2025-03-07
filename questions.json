@@ -113,6 +113,22 @@
       "level": "Medium",
       "tags": ["Sliding Window", "Hashmap"],
       "date": "2025-03-06"
+    },
+    {
+      "title": "Number of Substrings Containing All Three Characters",
+      "url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Sliding Window", "Hashmap", "String"],
+      "date": "2025-03-07"
+    },
+    {
+      "title": "Maximum Points You Can Obtain from Cards",
+      "url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Sliding Window", "Array", "Prefix Sum"],
+      "date": "2025-03-07"
     }
   ]
 }
