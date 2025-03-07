@@ -47,12 +47,12 @@
             <div class="header__label">Main menu</div>
             <ul class="header__list">
               <li class="header__item">
-                <a href="index.html" class="header__link"
-                  >Daily</a
-                >
+                <a href="index.html" class="header__link">Daily</a>
               </li>
               <li class="header__item">
-                <a href="problems.html" class="header__link" aria-current="true">Problems</a>
+                <a href="problems.html" class="header__link" aria-current="true"
+                  >Problems</a
+                >
               </li>
               <li
                 class="header__item header__item--divider"
@@ -71,9 +71,48 @@
 
     <main class="container">
       <h2>Problems</h2>
-
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Date</th>
+            <th>Level</th>
+            <th>Tags</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody id="problems-table"></tbody>
+      </table>
     </main>
     <!--<footer>Copyright &copy; 2025 Exoutia. All Rights Reserved.</footer>-->
+    <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+        const tbody = document.getElementById("problems-table");
+
+        try {
+          // Fetch the JSON data
+          const response = await fetch("./questions.json");
+          const data = await response.json();
+
+          questions = data.questions;
+          tbody.innerHTML = questions
+            .map((question, index) => {
+              return `
+<tr>
+<td>${question.title}</td>
+<td>${question.date}</td>
+<td>${question.level}</td>
+<td> ${question.tags.map((tag) => `<div class="table-tag">${tag}</div>`).join("")} </td>
+<td> <a src="${question.url}">${question.source}</a></td>
+</tr>
+      `;
+            })
+            .join("");
+        } catch (error) {
+          console.error("Error loading JSON data:", error);
+        }
+      });
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>
