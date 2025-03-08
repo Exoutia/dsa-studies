@@ -129,6 +129,22 @@
       "level": "Medium",
       "tags": ["Sliding Window", "Array", "Prefix Sum"],
       "date": "2025-03-07"
+    },
+    {
+      "title": "Maximum Average Subarray I",
+      "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Sliding Window", "Array"],
+      "date": "2025-03-08"
+    },
+    {
+      "title": "Fruit into Basket",
+      "url": "https://leetcode.com/problems/fruit-into-baskets/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Sliding Window", "Array"],
+      "date": "2025-03-08"
     }
   ]
 }
