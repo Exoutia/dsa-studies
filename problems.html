@@ -10,7 +10,7 @@
     <header class="header mf1-position-relative js-header">
       <div class="header__container mf1-container mf1-max-width-lg">
         <div class="header__logo">
-          <a href="#0">
+          <a href="index.html">
             <svg width="104" height="30" viewBox="0 0 104 30">
               <title>Go to homepage</title>
               <path
@@ -50,11 +50,21 @@
                 <a href="index.html" class="header__link">Daily</a>
               </li>
               <li class="header__item">
-                <a href="problems.html" class="header__link" aria-current="true">Problems</a>
+                <a href="problems.html" class="header__link" aria-current="true"
+                  >Problems</a
+                >
               </li>
-              <li class="header__item header__item--divider" aria-hidden="true"></li>
+              <li
+                class="header__item header__item--divider"
+                aria-hidden="true"
+              ></li>
               <li class="header__item">
-                <a href="#0" class="header__nav-btn mf1-btn mf1-btn--primary">Download</a>
+                <button
+                  id="download-btn"
+                  class="header__nav-btn mf1-btn mf1-btn--primary"
+                >
+                  Download
+                </button>
               </li>
             </ul>
           </div>
@@ -77,7 +87,7 @@
         <tbody id="problems-table"></tbody>
       </table>
     </main>
-    
+
     <script>
       document.addEventListener("DOMContentLoaded", async function () {
         const tbody = document.getElementById("problems-table");
@@ -85,19 +95,72 @@
           const response = await fetch("./questions.json");
           const data = await response.json();
           questions = data.questions;
-          tbody.innerHTML = questions.map((question) => `
+          tbody.innerHTML = questions
+            .map(
+              (question) => `
             <tr>
               <td>${question.title}</td>
               <td>${question.date}</td>
               <td>${question.level}</td>
-              <td>${question.tags.map(tag => `<div class="table-tag">${tag}</div>`).join("")}</td>
+              <td>${question.tags.map((tag) => `<div class="table-tag">${tag}</div>`).join("")}</td>
               <td><a href="${question.url}">${question.source}</a></td>
             </tr>
-          `).join("");
+          `,
+            )
+            .join("");
         } catch (error) {
           console.error("Error loading JSON data:", error);
         }
       });
+      // Function to convert table data to CSV
+      function downloadCSV() {
+        const table = document.getElementById("problems-table");
+        let csvContent = "data:text/csv;charset=utf-8,";
+
+        // Add CSV headers
+        csvContent += "Title,Date,Level,Tags, Source,Link\n";
+
+        // Iterate over table rows
+        table.querySelectorAll("tr").forEach((row) => {
+          let rowData = [];
+          row.querySelectorAll("td").forEach((cell, index) => {
+            let text = cell.innerText.trim();
+            if (index === 3) {
+              // Tags column
+              const tags = Array.from(cell.querySelectorAll(".table-tag"))
+                .map((tag) => tag.innerText.trim())
+                .join("; "); // Join multiple tags with a semicolon
+              text = `"${tags.replace(/"/g, '""')}"`; // Escape quotes
+            }
+
+            if (index === 4) {
+              // Extract Source (anchor text) & Link (href)
+              const anchor = cell.querySelector("a");
+              const sourceText = anchor ? anchor.innerText.trim() : "";
+              const sourceLink = anchor ? anchor.href : "";
+              rowData.push(`"${sourceText}"`); // Source column
+              rowData.push(`"${sourceLink}"`); // Link column
+              return; // Skip pushing 'text' since we handle both source and link separately
+            }
+            rowData.push(`"${text.replace(/"/g, '""')}"`); // Escape quotes
+          });
+          csvContent += rowData.join(",") + "\n";
+        });
+
+        // Create a temporary download link
+        const encodedUri = encodeURI(csvContent);
+        const link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "problems.csv");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+
+      // Attach event listener to the download button
+      document
+        .getElementById("download-btn")
+        .addEventListener("click", downloadCSV);
     </script>
     <script src="./script.js"></script>
   </body>
