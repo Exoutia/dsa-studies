@@ -658,11 +658,6 @@ td a:hover {
   color: blue;
 }
 
-#share-btn:hover {
-  background-color: blue;
-  color: white;
-}
-
 .problem-share {
   display: flex;
   align-items: center;
