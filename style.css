@@ -663,3 +663,21 @@ td a:hover {
   align-items: center;
   margin: 2rem auto;
 }
+
+.top-of-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.problem-link-share {
+  margin: 0.5em;
+  border: 2px solid #e38;
+  padding: 0.4em 0.4em;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.problem-link-share:hover {
+  transform: scale(1.2);
+}
