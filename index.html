@@ -8,6 +8,54 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+        const cardGrid = document.querySelector(".card-grid");
+
+        try {
+          // Fetch the JSON data
+          const response = await fetch("./questions.json");
+          const data = await response.json();
+
+          // find the lates date
+          const latestDate = data.questions.reduce((max, question) => {
+            return new Date(question.date) > new Date(max)
+              ? question.date
+              : max;
+          }, data.questions[0].date);
+
+          // filter only questions with the latest date
+          const latestQuestions = data.questions.filter(
+            (q) => q.date == latestDate,
+          );
+
+          // Render the questions dynamically
+          cardGrid.innerHTML = latestQuestions
+            .map((question, index) => {
+              return `
+        <div class="card">
+          <div class="card-image">
+            <span>${index + 1}</span>
+          </div>
+          <div class="card-content">
+            <h2 class="card-title">${question.title}</h2>
+            <div class="level">
+              <span class="level-${question.level.toLowerCase()}">${question.level}</span>
+            </div>
+            <ul class="tags">
+              ${question.tags.map((tag) => `<li class="tag">${tag}</li>`).join("")}
+            </ul>
+            <a href="${question.url}" target="_blank" class="card-button">Leetcode</a>
+          </div>
+        </div>
+      `;
+            })
+            .join("");
+        } catch (error) {
+          console.error("Error loading JSON data:", error);
+        }
+      });
+    </script>
     <header class="header mf1-position-relative js-header">
       <div class="header__container mf1-container mf1-max-width-lg">
         <div class="header__logo">
@@ -91,54 +139,6 @@
       <div class="card-grid"></div>
     </main>
     <!--<footer>Copyright &copy; 2025 Exoutia. All Rights Reserved.</footer>-->
-    <script>
-      document.addEventListener("DOMContentLoaded", async function () {
-        const cardGrid = document.querySelector(".card-grid");
-
-        try {
-          // Fetch the JSON data
-          const response = await fetch("./questions.json");
-          const data = await response.json();
-
-          // find the lates date
-          const latestDate = data.questions.reduce((max, question) => {
-            return new Date(question.date) > new Date(max)
-              ? question.date
-              : max;
-          }, data.questions[0].date);
-
-          // filter only questions with the latest date
-          const latestQuestions = data.questions.filter(
-            (q) => q.date == latestDate,
-          );
-
-          // Render the questions dynamically
-          cardGrid.innerHTML = latestQuestions
-            .map((question, index) => {
-              return `
-        <div class="card">
-          <div class="card-image">
-            <span>${index + 1}</span>
-          </div>
-          <div class="card-content">
-            <h2 class="card-title">${question.title}</h2>
-            <div class="level">
-              <span class="level-${question.level.toLowerCase()}">${question.level}</span>
-            </div>
-            <ul class="tags">
-              ${question.tags.map((tag) => `<li class="tag">${tag}</li>`).join("")}
-            </ul>
-            <a href="${question.url}" target="_blank" class="card-button">Leetcode</a>
-          </div>
-        </div>
-      `;
-            })
-            .join("");
-        } catch (error) {
-          console.error("Error loading JSON data:", error);
-        }
-      });
-    </script>
     <script>
       document
         .getElementById("share-btn")
