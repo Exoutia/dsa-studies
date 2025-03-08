@@ -145,6 +145,22 @@
       "level": "Medium",
       "tags": ["Sliding Window", "Array"],
       "date": "2025-03-08"
+    },
+    {
+      "title": "Group Anagrams",
+      "url": "https://leetcode.com/problems/group-anagrams/description/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Array", "Hash Table", "String", "Sorting"],
+      "date": "2025-03-08"
+    },
+    {
+      "title": "Group Shifted String",
+      "url": "https://www.geeksforgeeks.org/problems/group-shifted-string/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+      "source": "GFG",
+      "level": "Medium",
+      "tags": ["Hash", "String"],
+      "date": "2025-03-08"
     }
   ]
 }
