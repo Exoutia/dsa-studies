@@ -50,7 +50,7 @@
             <ul class="tags">
               ${question.tags.map((tag) => `<li class="tag">${tag}</li>`).join("")}
             </ul>
-            <a href="${question.url}" target="_blank" class="card-button">Leetcode</a>
+            <a href="${question.url}" target="_blank" class="card-button">${question.source}</a>
           </div>
         </div>
       `;
