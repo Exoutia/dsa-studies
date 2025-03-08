@@ -418,11 +418,12 @@ img, video, svg {
   height: 100vh;
   margin: 0 auto;
   padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 2rem;
   color: #2c3e50;
 }
 
@@ -645,4 +646,25 @@ td a:hover {
   margin: 2px;
   border-radius: 4px;
   font-size: 12px;
+}
+
+#share-btn {
+  background-color: none;
+  padding: 0.6rem 0.6rem;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid blue;
+  color: blue;
+}
+
+#share-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.problem-share {
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
 }

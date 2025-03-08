@@ -70,7 +70,22 @@
     </header>
 
     <main class="container">
-      <h1>Daily Problems</h1>
+      <div class="problem-share">
+        <h1>Daily Problems</h1>
+        <button id="share-btn" title="Copy links to question" aria-label="copy links">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="blue"
+          >
+            <path
+              d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h167q11-35 43-57.5t70-22.5q40 0 71.5 22.5T594-840h166q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560h-80v120H280v-120h-80v560Zm280-560q17 0 28.5-11.5T520-800q0-17-11.5-28.5T480-840q-17 0-28.5 11.5T440-800q0 17 11.5 28.5T480-760Z"
+            />
+          </svg>
+        </button>
+      </div>
 
       <div class="card-grid"></div>
     </main>
@@ -122,6 +137,30 @@
           console.error("Error loading JSON data:", error);
         }
       });
+    </script>
+    <script>
+      document
+        .getElementById("share-btn")
+        .addEventListener("click", function () {
+          const cards = document.querySelectorAll(".card-grid .card");
+          let linksText = "";
+
+          cards.forEach((card) => {
+            const name = card.querySelector(".card-title").textContent;
+            const url = card.querySelector(".card-button").href;
+            linksText += `${name}: ${url}\n`;
+          });
+
+          //copy to clipboard
+          navigator.clipboard
+            .writeText(linksText.trim())
+            .then(() => {
+              alert("links copied to clipboard");
+            })
+            .catch((err) => {
+              console.error("Failed to copy: ", err);
+            });
+        });
     </script>
     <script src="./script.js"></script>
   </body>
