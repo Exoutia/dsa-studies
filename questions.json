@@ -177,6 +177,22 @@
       "level": "Easy",
       "tags": ["Array"],
       "date": "2025-03-09"
+    },
+    {
+      "title": "Reversed Linked List",
+      "url": "https://leetcode.com/problems/reverse-linked-list/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Linked List"],
+      "date": "2025-03-10"
+    },
+    {
+      "title": "Maxium Frequency Stack",
+      "url": "https://leetcode.com/problems/maximum-frequency-stack/",
+      "source": "Leetcode",
+      "level": "Hard",
+      "tags": ["Bucket Sort", "Heap"],
+      "date": "2025-03-10"
     }
   ]
 }
