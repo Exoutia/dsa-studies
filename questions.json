@@ -193,6 +193,22 @@
       "level": "Hard",
       "tags": ["Bucket Sort", "Heap"],
       "date": "2025-03-10"
+    },
+    {
+      "title": "Palindrome Linked List",
+      "url": "https://leetcode.com/problems/palindrome-linked-list/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Linked List"],
+      "date": "2025-03-11"
+    },
+    {
+      "title": "Reorder List",
+      "url": "https://leetcode.com/problems/reorder-list/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Linked List", "Two Pointers", "Stack"],
+      "date": "2025-03-11"
     }
   ]
 }
