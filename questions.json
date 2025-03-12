@@ -209,6 +209,24 @@
       "level": "Medium",
       "tags": ["Linked List", "Two Pointers", "Stack"],
       "date": "2025-03-11"
-    }
+    },
+    {
+      "title": "Pancake Sorting",
+      "url": "https://leetcode.com/problems/pancake-sorting/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Array", "Sorting", "Greedy"],
+      "date": "2025-03-12"
+    },
+    {
+      "title": "Majority Element",
+      "url": "https://leetcode.com/problems/majority-element/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Array", "Sorting"],
+      "date": "2025-03-12"
+    } 
+
+
   ]
 }
