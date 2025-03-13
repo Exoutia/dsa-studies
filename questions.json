@@ -225,7 +225,24 @@
       "level": "Medium",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-12"
+    },
+    {
+      "title": "3 Sum",
+      "url": "https://leetcode.com/problems/3sum/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Array", "Sorting", "Two Pointer"],
+      "date": "2025-03-13"
+    },
+    {
+      "title": "Sort Colors",
+      "url": "https://leetcode.com/problems/sort-colors/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Array", "Sorting"],
+      "date": "2025-03-13"
     } 
+
 
 
   ]
