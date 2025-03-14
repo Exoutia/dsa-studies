@@ -241,7 +241,25 @@
       "level": "Medium",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-13"
+    },
+    {
+      "title": "Merge K Sorted List",
+      "url": "https://leetcode.com/problems/merge-k-sorted-lists/description/",
+      "source": "Leetcode",
+      "level": "Hard",
+      "tags": ["Array", "Sorting"],
+      "date": "2025-03-14"
+    },
+    {
+      "title": "Merge Two Sorted Lists",
+      "url": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Array", "Sorting"],
+      "date": "2025-03-14"
     } 
+
+ 
 
 
 
