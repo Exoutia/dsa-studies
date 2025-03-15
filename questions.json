@@ -241,7 +241,9 @@
       "level": "Medium",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-13"
-    },
+    }
+
+    ,
     {
       "title": "Merge K Sorted List",
       "url": "https://leetcode.com/problems/merge-k-sorted-lists/description/",
@@ -257,6 +259,24 @@
       "level": "Easy",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-14"
+    } 
+
+    ,
+    {
+      "title": "Intersection of Two Arrays II",
+      "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/description/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Array", "Sorting", "Binary Search"],
+      "date": "2025-03-15"
+    },
+    {
+      "title": "Permutations-II",
+      "url": "https://leetcode.com/problems/permutations-ii/description/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Array", "Sorting"],
+      "date": "2025-03-15"
     } 
 
  
