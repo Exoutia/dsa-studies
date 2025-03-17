@@ -297,6 +297,24 @@
       "date": "2025-03-16"
     } 
 
+    ,
+    {
+      "title": "Min Cost Climbing Stairs",
+      "url": "https://leetcode.com/problems/min-cost-climbing-stairs/description/",
+      "source": "Leetcode",
+      "level": "Easy",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-03-17"
+    },
+    {
+      "title": "Minimum Path Sum",
+      "url": "https://leetcode.com/problems/minimum-path-sum/description/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-03-17"
+    } 
+
  
 
 
