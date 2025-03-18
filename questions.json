@@ -315,6 +315,24 @@
       "date": "2025-03-17"
     } 
 
+    ,
+    {
+      "title": "Coin Change",
+      "url": "https://leetcode.com/problems/coin-change/description/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-03-18"
+    },
+    {
+      "title": "Coin Change II",
+      "url": "https://leetcode.com/problems/coin-change-ii/description/",
+      "source": "Leetcode",
+      "level": "Medium",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-03-18"
+    } 
+
  
 
 
