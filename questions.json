@@ -333,6 +333,24 @@
       "date": "2025-03-18"
     } 
 
+    ,
+    {
+      "title": "Subset Sum",
+      "url": "https://www.geeksforgeeks.org/problems/check-if-there-exists-a-subsequence-with-sum-k/0",
+      "source": "GFG",
+      "level": "Medium",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-03-19"
+    },
+    {
+      "title": "Perfect Sum",
+      "url": "https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/0",
+      "source": "GFG",
+      "level": "Medium",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-03-19"
+    } 
+
  
 
 
