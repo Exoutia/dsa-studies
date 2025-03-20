@@ -351,6 +351,25 @@
       "date": "2025-03-19"
     } 
 
+    ,
+    {
+      "title": "Painting The Walls",
+      "url": "https://leetcode.com/problems/painting-the-walls/description/",
+      "source": "Leetcode",
+      "level": "Hard",
+      "tags": ["Dynamic Programming", "Array"],
+      "date": "2025-03-20"
+    },
+    {
+      "title": "Knapsack with Duplicate Items",
+      "url": "https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+      "source": "GFG",
+      "level": "Medium",
+      "tags": ["Dynamic Programming"],
+      "date": "2025-03-20"
+    } 
+
+
  
 
 
