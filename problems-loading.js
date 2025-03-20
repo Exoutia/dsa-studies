@@ -115,3 +115,45 @@ document
       console.error("Error loading JSON data:", error);
     }
   });
+
+document
+  .getElementById("sorting-by-date")
+  .addEventListener("click", async function () {
+    inorderSorting = !inorderSorting; // Toggle state
+
+    const ascIcon = document.getElementById("asc-icon-for-date");
+    const descIcon = document.getElementById("desc-icon-for-date");
+    const tbody = document.getElementById("problems-table");
+    try {
+      const response = await fetch("./questions.json");
+      const data = await response.json();
+
+      const sortedQuestions = data.questions.sort((a, b) => {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+
+        return inorderSorting
+          ? dateA - dateB // Ascending order
+          : dateB - dateA; // Descending order
+      });
+
+      tbody.innerHTML = sortedQuestions
+        .map(
+          (question) => `
+            <tr>
+              <td>${question.title}</td>
+              <td>${question.date}</td>
+              <td>${question.level}</td>
+              <td>${question.tags.map((tag) => `<div class="table-tag">${tag}</div>`).join("")}</td>
+              <td><a href="${question.url}">${question.source}</a></td>
+            </tr>
+          `,
+        )
+        .join("");
+      // Toggle SVG visibility
+      ascIcon.style.display = inorderSorting ? "inline" : "none";
+      descIcon.style.display = inorderSorting ? "none" : "inline";
+    } catch (error) {
+      console.error("Error loading JSON data:", error);
+    }
+  });

@@ -78,8 +78,41 @@
         <thead>
           <tr>
             <th>Title</th>
-            <th>Date</th>
-            <th style="display: flex; align-items: center">
+            <th>
+              <div
+                style="display: inline-flex; align-items: center; gap: 0.3em"
+              >
+                Date
+                <button id="sorting-by-date" style="margin-left: 0.3em">
+                  <span id="asc-icon-for-date" style="display: none">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24px"
+                      viewBox="0 -960 960 960"
+                      width="24px"
+                      fill="#e3e3e3"
+                    >
+                      <path d="M480-360 280-560h400L480-360Z" />
+                    </svg>
+                  </span>
+                  <span id="desc-icon-for-date">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24px"
+                      viewBox="0 -960 960 960"
+                      width="24px"
+                      fill="#e3e3e3"
+                    >
+                      <path d="m280-400 200-200 200 200H280Z" />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </th>
+            <th>
+              <div
+                style="display: inline-flex; align-items: center; gap: 0.3em"
+              >
               Level
               <button id="sortingLevel" style="margin-left: 0.3em">
                 <span id="asc-icon" style="display: none">
