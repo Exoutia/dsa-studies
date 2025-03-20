@@ -369,6 +369,24 @@
       "date": "2025-03-20"
     } 
 
+    ,
+    {
+      "title": "D - Coming of Age Celebration",
+      "url": "https://atcoder.jp/contests/abc388/tasks/abc388_d",
+      "source": "Atcoder",
+      "level": "Medium",
+      "tags": ["Difference Array", "Array"],
+      "date": "2025-03-20"
+    },
+    {
+      "title": "C - Illuminate Buildings",
+      "url": "https://atcoder.jp/contests/abc385/tasks/abc385_c",
+      "source": "Atcoder",
+      "level": "Medium",
+      "tags": ["Kadane's Algorithm"],
+      "date": "2025-03-20"
+    } 
+
 
  
 
