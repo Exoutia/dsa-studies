@@ -387,8 +387,24 @@
       "date": "2025-03-20"
     } 
 
-
- 
+  ,
+  {
+      "title": "C - Humidifier 3",
+      "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c",
+      "source": "Atcoder",
+      "level": "Medium",
+      "tags": ["multisourceBFS", "bfs"],
+      "date": "2025-03-21"
+    },
+    {
+      "title": "C - Kaiten Sushi",
+      "url": "https://atcoder.jp/contests/abc382/tasks/abc382_c",
+      "source": "Atcoder",
+      "level": "Medium",
+      "tags": ["Array"],
+      "date": "2025-03-21"
+    }
+   
 
 
 
