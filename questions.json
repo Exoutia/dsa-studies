@@ -241,9 +241,7 @@
       "level": "Medium",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-13"
-    }
-
-    ,
+    },
     {
       "title": "Merge K Sorted List",
       "url": "https://leetcode.com/problems/merge-k-sorted-lists/description/",
@@ -259,9 +257,7 @@
       "level": "Easy",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-14"
-    } 
-
-    ,
+    },
     {
       "title": "Intersection of Two Arrays II",
       "url": "https://leetcode.com/problems/intersection-of-two-arrays-ii/description/",
@@ -277,9 +273,7 @@
       "level": "Medium",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-15"
-    } 
-
-    ,
+    },
     {
       "title": "Maximum Gap",
       "url": "https://leetcode.com/problems/maximum-gap/description/",
@@ -295,9 +289,7 @@
       "level": "Medium",
       "tags": ["Array", "Sorting"],
       "date": "2025-03-16"
-    } 
-
-    ,
+    },
     {
       "title": "Min Cost Climbing Stairs",
       "url": "https://leetcode.com/problems/min-cost-climbing-stairs/description/",
@@ -313,9 +305,7 @@
       "level": "Medium",
       "tags": ["Dynamic Programming"],
       "date": "2025-03-17"
-    } 
-
-    ,
+    },
     {
       "title": "Coin Change",
       "url": "https://leetcode.com/problems/coin-change/description/",
@@ -331,9 +321,7 @@
       "level": "Medium",
       "tags": ["Dynamic Programming"],
       "date": "2025-03-18"
-    } 
-
-    ,
+    },
     {
       "title": "Subset Sum",
       "url": "https://www.geeksforgeeks.org/problems/check-if-there-exists-a-subsequence-with-sum-k/0",
@@ -349,9 +337,7 @@
       "level": "Medium",
       "tags": ["Dynamic Programming"],
       "date": "2025-03-19"
-    } 
-
-    ,
+    },
     {
       "title": "Painting The Walls",
       "url": "https://leetcode.com/problems/painting-the-walls/description/",
@@ -367,9 +353,7 @@
       "level": "Medium",
       "tags": ["Dynamic Programming"],
       "date": "2025-03-20"
-    } 
-
-    ,
+    },
     {
       "title": "D - Coming of Age Celebration",
       "url": "https://atcoder.jp/contests/abc388/tasks/abc388_d",
@@ -385,10 +369,8 @@
       "level": "Medium",
       "tags": ["Kadane's Algorithm"],
       "date": "2025-03-20"
-    } 
-
-  ,
-  {
+    },
+    {
       "title": "C - Humidifier 3",
       "url": "https://atcoder.jp/contests/abc383/tasks/abc383_c",
       "source": "Atcoder",
@@ -403,10 +385,22 @@
       "level": "Medium",
       "tags": ["Array"],
       "date": "2025-03-21"
+    },
+    {
+      "title": "Find All Possible Recipes from Given Supplies",
+      "url": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/?envType=daily-question&envId=2025-03-21",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["graph", "topological sort"],
+      "date": "2025-03-21"
+    },
+    {
+      "title": "Course Schedule",
+      "url": "https://leetcode.com/problems/course-schedule/?envType=problem-list-v2&envId=topological-sort",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["graph", "topological sort"],
+      "date": "2025-03-21"
     }
-   
-
-
-
   ]
 }
