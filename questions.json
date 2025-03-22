@@ -401,6 +401,38 @@
       "level": "Medium",
       "tags": ["graph", "topological sort"],
       "date": "2025-03-21"
+    },
+    {
+      "title": "3Sum",
+      "url": "https://leetcode.com/problems/3sum/",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["twoPointer"],
+      "date": "2025-03-22"
+    },
+    {
+      "title": "Count the Number of Complete Components",
+      "url": "https://leetcode.com/problems/count-the-number-of-complete-components/description/?envType=daily-question&envId=2025-03-22",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["graph", "disjointset", "dfs", "bfs"],
+      "date": "2025-03-22"
+    },
+    {
+      "title": "A. Filling Shapes",
+      "url": "https://codeforces.com/contest/1182/problem/A",
+      "source": "Codeforces",
+      "level": "Medium",
+      "tags": ["tree", "Dynamic Programming"],
+      "date": "2025-03-22"
+    },
+    {
+      "title": "Consecutive 1s Not Allowed1912",
+      "url": "https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1?itm_source=geeksforgeeks",
+      "source": "GFG",
+      "level": "Medium",
+      "tags": ["Array", "Dynamic Programming"],
+      "date": "2025-03-22"
     }
   ]
 }
