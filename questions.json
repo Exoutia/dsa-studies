@@ -433,6 +433,30 @@
       "level": "Medium",
       "tags": ["Array", "Dynamic Programming"],
       "date": "2025-03-22"
+    },
+    {
+      "title": "3169. Count Days Without Meeting",
+      "url": "https://leetcode.com/problems/count-days-without-meetings/description/?envType=daily-question&envId=2025-03-24",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["merge-intervals", "sorting"],
+      "date": "2025-03-24"
+    },
+    {
+      "title": "1191 K-Consecutive Maximum Sum",
+      "url": "https://leetcode.com/problems/k-concatenation-maximum-sum/description/",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["dynamic-programming", "kadane", "array"],
+      "date": "2025-03-24"
+    },
+    {
+      "title": "Largest Sum Subarray of Size at Least K",
+      "url": "https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/0",
+      "source": "GeeksforGeeks",
+      "level": "Medium",
+      "tags": ["kadane", "twoPointer", "array"],
+      "date": "2025-03-24"
     }
   ]
 }
