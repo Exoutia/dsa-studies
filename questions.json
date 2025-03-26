@@ -473,10 +473,31 @@
       "level": "Easy",
       "tags": ["Dynamic Programming"],
       "date": "2025-03-25"
-    }
-
-
-
+    },
+{
+    "title": "2033. Minimum Operations to Make a Uni-Value Grid",
+    "url": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/",
+    "source": "LeetCode",
+    "level": "Medium",
+    "tags": ["Array", "Sorting"],
+    "date": "2025-03-26"
+  },
+  {
+    "title": "2501. Longest Square Streak in an Array",
+    "url": "https://leetcode.com/problems/longest-square-streak-in-an-array/description",
+    "source": "LeetCode",
+    "level": "Medium",
+    "tags": ["Array", "Sorting", "Dynamic Programming"],
+    "date": "2025-03-26"
+  },
+  {
+    "title": "22. Generate Parentheses",
+    "url": "https://leetcode.com/problems/generate-parentheses/",
+    "source": "LeetCode",
+    "level": "Easy",
+    "tags": ["Dynamic Programming", "Array", "String"],
+    "date": "2025-03-26"
+  }
 
 
   ]
