@@ -497,6 +497,14 @@
     "level": "Easy",
     "tags": ["Dynamic Programming", "Array", "String"],
     "date": "2025-03-26"
+  },
+  {
+    "title": "740. Delete and Earn",
+    "url": "https://leetcode.com/problems/delete-and-earn/",
+    "source": "LeetCode",
+    "level": "Easy",
+    "tags": ["Dynamic Programming", "Array", "Sorting"],
+    "date": "2025-03-29"
   }
 
 
