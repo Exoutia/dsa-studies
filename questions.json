@@ -502,11 +502,19 @@
     "title": "740. Delete and Earn",
     "url": "https://leetcode.com/problems/delete-and-earn/",
     "source": "LeetCode",
-    "level": "Easy",
+    "level": "Medium",
     "tags": ["Dynamic Programming", "Array", "Sorting"],
     "date": "2025-03-29"
-  }
+  },
 
+  {
+    "title": "64. Minimum path sum",
+    "url": "https://leetcode.com/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming",
+    "source": "LeetCode",
+    "level": "Medium",
+    "tags": ["Dynamic Programming", "Array"],
+    "date": "2025-03-31"
+  }
 
   ]
 }
