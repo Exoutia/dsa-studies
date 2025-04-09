@@ -514,7 +514,22 @@
     "level": "Medium",
     "tags": ["Dynamic Programming", "Array"],
     "date": "2025-03-31"
+  },
+{
+    "title": "1143. Longest Common Subsequence",
+    "url": "https://leetcode.com/problems/longest-common-subsequence/",
+    "source": "LeetCode",
+    "level": "Medium",
+    "tags": ["dynamic-programming", "string"],
+    "date": "2025-04-09"
+  },
+  {
+    "title": "516. Longest Palindromic Subsequence",
+    "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+    "source": "LeetCode",
+    "level": "Medium",
+    "tags": ["dynamic-programming", "string"],
+    "date": "2025-04-09"
   }
-
   ]
 }
