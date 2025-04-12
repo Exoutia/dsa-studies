@@ -474,62 +474,110 @@
       "tags": ["Dynamic Programming"],
       "date": "2025-03-25"
     },
-{
-    "title": "2033. Minimum Operations to Make a Uni-Value Grid",
-    "url": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/",
-    "source": "LeetCode",
-    "level": "Medium",
-    "tags": ["Array", "Sorting"],
-    "date": "2025-03-26"
-  },
-  {
-    "title": "2501. Longest Square Streak in an Array",
-    "url": "https://leetcode.com/problems/longest-square-streak-in-an-array/description",
-    "source": "LeetCode",
-    "level": "Medium",
-    "tags": ["Array", "Sorting", "Dynamic Programming"],
-    "date": "2025-03-26"
-  },
-  {
-    "title": "22. Generate Parentheses",
-    "url": "https://leetcode.com/problems/generate-parentheses/",
-    "source": "LeetCode",
-    "level": "Easy",
-    "tags": ["Dynamic Programming", "Array", "String"],
-    "date": "2025-03-26"
-  },
-  {
-    "title": "740. Delete and Earn",
-    "url": "https://leetcode.com/problems/delete-and-earn/",
-    "source": "LeetCode",
-    "level": "Medium",
-    "tags": ["Dynamic Programming", "Array", "Sorting"],
-    "date": "2025-03-29"
-  },
+    {
+      "title": "2033. Minimum Operations to Make a Uni-Value Grid",
+      "url": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["Array", "Sorting"],
+      "date": "2025-03-26"
+    },
+    {
+      "title": "2501. Longest Square Streak in an Array",
+      "url": "https://leetcode.com/problems/longest-square-streak-in-an-array/description",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["Array", "Sorting", "Dynamic Programming"],
+      "date": "2025-03-26"
+    },
+    {
+      "title": "22. Generate Parentheses",
+      "url": "https://leetcode.com/problems/generate-parentheses/",
+      "source": "LeetCode",
+      "level": "Easy",
+      "tags": ["Dynamic Programming", "Array", "String"],
+      "date": "2025-03-26"
+    },
+    {
+      "title": "740. Delete and Earn",
+      "url": "https://leetcode.com/problems/delete-and-earn/",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["Dynamic Programming", "Array", "Sorting"],
+      "date": "2025-03-29"
+    },
 
-  {
-    "title": "64. Minimum path sum",
-    "url": "https://leetcode.com/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming",
-    "source": "LeetCode",
-    "level": "Medium",
-    "tags": ["Dynamic Programming", "Array"],
-    "date": "2025-03-31"
-  },
-{
-    "title": "1143. Longest Common Subsequence",
-    "url": "https://leetcode.com/problems/longest-common-subsequence/",
-    "source": "LeetCode",
-    "level": "Medium",
-    "tags": ["dynamic-programming", "string"],
-    "date": "2025-04-09"
-  },
-  {
-    "title": "516. Longest Palindromic Subsequence",
-    "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
-    "source": "LeetCode",
-    "level": "Medium",
-    "tags": ["dynamic-programming", "string"],
-    "date": "2025-04-09"
-  }
+    {
+      "title": "64. Minimum path sum",
+      "url": "https://leetcode.com/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=dynamic-programming",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["Dynamic Programming", "Array"],
+      "date": "2025-03-31"
+    },
+    {
+      "title": "1143. Longest Common Subsequence",
+      "url": "https://leetcode.com/problems/longest-common-subsequence/",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["dynamic-programming", "string"],
+      "date": "2025-04-09"
+    },
+    {
+      "title": "516. Longest Palindromic Subsequence",
+      "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+      "source": "LeetCode",
+      "level": "Medium",
+      "tags": ["dynamic-programming", "string"],
+      "date": "2025-04-09"
+    },
+    {
+      "title": "1903A - Halloumi Boxes",
+      "url": "https://codeforces.com/problemset/problem/1903/A",
+      "source": "Codeforces",
+      "level": "Easy",
+      "tags": ["implementation", "greedy"],
+      "date": "2025-04-10"
+    },
+    {
+      "title": "1901A - Line Trip",
+      "url": "https://codeforces.com/problemset/problem/1901/A",
+      "source": "Codeforces",
+      "level": "Easy",
+      "tags": ["Array", "Math"],
+      "date": "2025-04-12"
+    },
+    {
+      "title": "1900A - Cover in Water",
+      "url": "https://codeforces.com/problemset/problem/1900/A",
+      "source": "Codeforces",
+      "level": "Easy",
+      "tags": ["Array", "Two Pointer"],
+      "date": "2025-04-12"
+    },
+    {
+      "title": "1899A - Game with Integers",
+      "url": "https://codeforces.com/problemset/problem/1899/A",
+      "source": "Codeforces",
+      "level": "Easy",
+      "tags": ["Array", "Greedy"],
+      "date": "2025-04-12"
+    },
+    {
+      "title": "1896A - Jagged Swaps",
+      "url": "https://codeforces.com/problemset/problem/1896/A",
+      "source": "Codeforces",
+      "level": "Easy",
+      "tags": ["Array", "Sorting"],
+      "date": "2025-04-12"
+    },
+    {
+      "title": "1890A - Doremy's Paint 3",
+      "url": "https://codeforces.com/problemset/problem/1890/A",
+      "source": "Codeforces",
+      "level": "Easy",
+      "tags": ["Array", "Constructive Algorithm"],
+      "date": "2025-04-12"
+    }
   ]
 }
