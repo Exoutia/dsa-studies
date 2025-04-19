@@ -578,6 +578,38 @@
       "level": "Easy",
       "tags": ["Array", "Constructive Algorithm"],
       "date": "2025-04-12"
-    }
+    },
+  {
+    "title": "1887A - Goals of Victory",
+    "url": "https://codeforces.com/problemset/problem/1887/A",
+    "source": "Codeforces",
+    "level": "Easy",
+    "tags": ["implementation"],
+    "date": "2025-04-19"
+  },
+  {
+    "title": "1873C - Target Practice",
+    "url": "https://codeforces.com/problemset/problem/1873/C",
+    "source": "Codeforces",
+    "level": "Easy",
+    "tags": ["implementation", "greedy"],
+    "date": "2025-04-19"
+  },
+  {
+    "title": "1866A - Ambitious Kid",
+    "url": "https://codeforces.com/problemset/problem/1866/A",
+    "source": "Codeforces",
+    "level": "Easy",
+    "tags": ["math", "greedy"],
+    "date": "2025-04-19"
+  },
+  {
+    "title": "1862B - Sequence Game",
+    "url": "https://codeforces.com/problemset/problem/1862/B",
+    "source": "Codeforces",
+    "level": "Easy",
+    "tags": ["implementation", "greedy"],
+    "date": "2025-04-19"
+  }
   ]
 }
